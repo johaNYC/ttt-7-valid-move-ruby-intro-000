@@ -8,9 +8,9 @@
 def valid_move?(board, index)
   array = index.between?(0,8)
   if def position_taken?(board, array)
-    (board [array] == " ") || (board [array] == "")
+    (board [array] == " ") 
     return true
-       (board [array] == nil )
+       || (board [array] == "")(board [array] == nil )
  end
  return false || nil
 end
