@@ -10,6 +10,7 @@ def valid_move?(board, index)
   if def position_taken?(board, array)
     (board [array] == " ") || (board [array] == "") ||
     (board [array] == nil )
+    return false && index.between?(0,8)
     return true
  end
 end
