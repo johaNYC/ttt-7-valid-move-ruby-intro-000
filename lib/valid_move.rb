@@ -7,12 +7,14 @@
 
 def valid_move?(board, index)
   array = index.between?(0,8)
-  if position_taken?(board, array)
+  if def position_taken?(board, array)
     (board [array] == " ") || (board [array] == "") ||
     (board [array] == nil )
     return true
   else
     return false
  end
+end
+
 end
 
