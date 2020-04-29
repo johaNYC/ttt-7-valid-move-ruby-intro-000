@@ -13,6 +13,8 @@ def valid_move?(board, index)
  end
  if board[array] == " "
    return true
+ end
 end
+
 end
 
