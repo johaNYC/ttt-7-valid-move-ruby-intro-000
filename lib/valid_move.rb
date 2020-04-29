@@ -11,7 +11,6 @@ def valid_move?(board, index)
     board [array] == " "
     return true
  end
- return false || nil
-end
+
 end
 
